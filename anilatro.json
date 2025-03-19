@@ -1,0 +1,16 @@
+{
+    "id": "AniLatro",
+    "name": "AniLatro",
+    "author": ["ItzIte"],
+    "description": "Balatro mod based around anime references, weapons, characters, and more.",
+    "prefix": "anilatro",
+    "main_file": "anilatro.lua",
+	"priority": 0,
+	"badge_colour": "#991d1d",
+	"badge_text_colour": "#ffffff",
+	"version": "0.0.1",
+	"dependencies": [
+        "Steamodded (>=1.*)",
+        "Lovely (>=0.6"
+    ]
+}
