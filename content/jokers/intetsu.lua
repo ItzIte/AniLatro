@@ -37,13 +37,8 @@ SMODS.Joker{
         if context.joker_main then
             return{
                 mult = card.ability.extra.mult_add,
-                xmult = card.ability.extra.x_mult
-            }
-        end
-        if context.setting_blind then
-            self.hands_sub = G.GAME.round_resets.hands - 1
-            return{
-                ease_hands_played(-self.hands_sub)
+                xmult = card.ability.extra.x_mult,
+                ease_hands_played(-G.GAME.current_round.hands_left)
             }
         end
     end,
