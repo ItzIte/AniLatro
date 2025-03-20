@@ -39,8 +39,7 @@ SMODS.Joker{
     calculate = function(self, card, context)
         if context.joker_main then
             return{
-                xmult = card.ability.extra.x_mult,
-                message = "Blanked!"
+                xmult = card.ability.extra.x_mult
             }
         end
     end,
