@@ -1,3 +1,4 @@
 ANILATRO_ENABLED_JOKERS = {
-    "j_blank_slate"
+    "j_blank_slate",
+    "j_intetsu"
 }
