@@ -1,5 +1,5 @@
 SMODS.Joker{
-    key = 'blank_slate',
+    key = 'j_blank_slate',
     loc_txt = {
         name = "Blank Slate",
         text = {
